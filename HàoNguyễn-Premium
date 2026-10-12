@@ -72,7 +72,7 @@ BeautyPlus = type=http-response,pattern=https:\/\/(api\.mr\.pixocial\.com\/v1\/m
 revenuecat = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=true,max-size=-1,timeout=60,script-path=https://raw.githubusercontent.com/haonguyenworld3-spec/haonguyenpremiumfullkey/refs/heads/main/locket.js
 deleteHeader = type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/haonguyenworld3-spec/haonguyenpremiumfullkey/refs/heads/main/suppperlocket.js,timeout=60
 #djay
-djay_pro = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts),script-path=https://raw.githubusercontent.com/haonguyenworld3-spec/djaypro_NVAH/refs/heads/main/djay_pro%20(1).js,requires-body=1,max-size=0
+djay_pro = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts),script-path=https://raw.githubusercontent.com/haonguyenworld3-spec/haonguyenpremiumfullkey/refs/heads/main/djaypro.js,requires-body=1,max-size=0
 
 [MITM]
 ca-passphrase = Haonguyenpremium.com
